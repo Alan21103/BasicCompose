@@ -56,8 +56,14 @@ fun BasicLayout(modifier: Modifier = Modifier){
             modifier = Modifier.padding(top = 40.dp).size(250.dp))
 
         Text(
-            " Nama", // Ganti dengan nama Anda
+            " Nama",
             style = TextStyle(fontSize = 18.sp, color = Color.Blue, fontWeight = FontWeight.Medium),
+            modifier = Modifier.padding(top = 20.dp)
+        )
+
+        Text(
+            " Rosihan Syahlan Syahputra",
+            style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.Medium),
             modifier = Modifier.padding(top = 20.dp)
         )
 

@@ -57,7 +57,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
 
         Text(
             " Nama",
-            style = TextStyle(fontSize = 18.sp, color = Color.Blue, fontWeight = FontWeight.Medium),
+            style = TextStyle(fontSize = 18.sp, color = Color.Blue, fontWeight = FontWeight.Bold),
             modifier = Modifier.padding(top = 20.dp)
         )
 

@@ -46,7 +46,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ){
-        Text("Login", style = TextStyle(fontSize = 50.sp,
+        Text("Login", style = TextStyle(fontSize = 50.sp, color = Color.Blue,
             fontWeight = FontWeight.Bold))
 
         Text("Ini adalah halaman Login", style = TextStyle(fontSize = 20.sp,

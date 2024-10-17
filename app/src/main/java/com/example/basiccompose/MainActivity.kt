@@ -15,6 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
@@ -46,12 +47,20 @@ fun BasicLayout(modifier: Modifier = Modifier){
         modifier = Modifier.fillMaxSize()
     ){
         Text("Login", style = TextStyle(fontSize = 50.sp,
-            fontWeight = FontWeight.Bold
-        ))
+            fontWeight = FontWeight.Bold))
+
         Text("Ini adalah halaman Login", style = TextStyle(fontSize = 20.sp,
             fontStyle = FontStyle.Italic))
+
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = null,
             modifier = Modifier.padding(top = 40.dp).size(250.dp))
+
+        Text(
+            " Nama", // Ganti dengan nama Anda
+            style = TextStyle(fontSize = 18.sp, color = Color.Blue, fontWeight = FontWeight.Medium),
+            modifier = Modifier.padding(top = 20.dp)
+        )
+
     }
 }
 

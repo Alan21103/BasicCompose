@@ -69,7 +69,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
 
         Text(
             "20220140127",
-            style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.Medium),
+            style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Medium),
             modifier = Modifier.padding(top = 8.dp)
         )
 

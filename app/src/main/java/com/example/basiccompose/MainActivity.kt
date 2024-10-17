@@ -53,7 +53,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic))
 
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = null,
-            modifier = Modifier.padding(top = 40.dp).size(250.dp))
+            modifier = Modifier.padding(top = 30.dp).size(220.dp))
 
         Text(
             " Nama",
@@ -74,7 +74,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
         )
 
         Image(painter = painterResource(id = R.drawable.poto), contentDescription = null,
-            modifier = Modifier.padding(top = 40.dp).size(250.dp))
+            modifier = Modifier.padding(top = 30.dp).size(220.dp))
 
     }
 }
